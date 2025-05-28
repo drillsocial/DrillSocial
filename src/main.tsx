@@ -1,6 +1,10 @@
-import './style.css';
+import './index.css';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
-document.querySelector('#app')!.innerHTML = `
-  <h1>Hello from DrillSocial!</h1>
-  <p>If you're seeing this, Vite is working 🎉</p>
-`;
+const root = document.querySelector('#app');
+
+if (root) {
+  ReactDOM.createRoot(root).render(<App />);
+}

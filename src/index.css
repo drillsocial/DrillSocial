@@ -1,3 +1,31 @@
 body {
-  @apply m-0 p-0 bg-black text-white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #0d0d0d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #ff00ff;
+  text-shadow: 
+    0 0 5px #ff00ff,
+    0 0 10px #ff00ff,
+    0 0 20px #ff00ff,
+    0 0 40px #ff00ff;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #bb00ff;
+  text-shadow:
+    0 0 5px #bb00ff,
+    0 0 10px #bb00ff,
+    0 0 20px #bb00ff;
 }
