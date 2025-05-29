@@ -1,8 +1,9 @@
+// src/App.tsx
 export default function App() {
   return (
-    <>
-      <h1>DrillSocial Coming Soon</h1>
-      <p>We’re lighting up the web… stay tuned!</p>
-    </>
+    <div style={{ color: 'hotpink', textAlign: 'center', marginTop: '2rem' }}>
+      <h1>🔥 DrillSocial is Live! 🔥</h1>
+      <p>If you see this message, everything is working.</p>
+    </div>
   );
 }
