@@ -1,4 +1,10 @@
-document.querySelector('#app')!.innerHTML = `
-  <h1>Hello from DrillSocial!</h1>
-  <p>If you're seeing this, Vite is working 🎉</p>
-`;
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
+
+ReactDOM.createRoot(document.getElementById("app")!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
