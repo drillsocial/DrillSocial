@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './app';
 
 ReactDOM.createRoot(document.getElementById('app')!).render(
   <React.StrictMode>
-    <App />
+    <h1 style={{ color: 'limegreen' }}>🔥 IT WORKS! 🔥</h1>
   </React.StrictMode>
 );
