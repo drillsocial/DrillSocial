@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './App.tsx';
+import './index.css';
 
-const root = document.getElementById('root');
-
-if (root) {
-  ReactDOM.createRoot(root).render(
-    <React.StrictMode>
-      <h1 style={{ color: 'limegreen' }}>🔥 IT WORKS!</h1>
-    </React.StrictMode>
-  );
-} else {
-  console.error('Root element not found!');
+const rootElement = document.getElementById('root');
+if (!rootElement) {
+  throw new Error('Root element not found. Ensure there is a <div id="root"> in index.html.');
 }
+const root = ReactDOM.createRoot(rootElement);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
